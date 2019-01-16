@@ -351,6 +351,26 @@
 
 ######################################################################
 
+# """
+#  Documentação do método soma
+# """
+#
+# def soma(*args):
+#     """
+#     soma(x,y,z,...) -> result
+#     """
+#     return sum(args)
+#
+#   #args_globals = globals()
+#   #print(args_globals)
+#
+# if __name__ == '__main__':
+#     resulta = soma(*[2,3,4])
+#     print(resulta)
+
+
+######################################################################
+
 """
  Documentação do método soma
 """
@@ -365,5 +385,5 @@ def soma(*args):
   #print(args_globals)
 
 if __name__ == '__main__':
-    resulta = soma(*[2,3,4])
+    resulta = soma(*[5,1,8])
     print(resulta)
